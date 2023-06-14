@@ -15,7 +15,7 @@
     <style>
         .login{
             margin-top: 8px;
-            
+            color: black;
             float: right;
         }
     </style>
