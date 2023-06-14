@@ -12,6 +12,13 @@
     <link rel="stylesheet" href="css/font-awesome.css">
     <!-- Custom stlylesheet -->
     <link rel="stylesheet" href="css/style.css">
+    <style>
+        .login{
+            margin-top: 8px;
+            
+            float: right;
+        }
+    </style>
 </head>
 <body>
 <!-- HEADER -->
@@ -60,7 +67,7 @@
                             echo "<li><a class='{$active}' href='category.php?id={$row['category_id']}'>{$row['category_name']}</a></li>" ;
                         }
                     ?>
-                                       
+                    <li class="login"><button><a href="./admin/index.php">Login</a></button></li>                 
                 </ul>
                 <?php }
                     
