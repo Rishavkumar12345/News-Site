@@ -1,1 +1,1 @@
-Hello, this is new website fully responsive
+Hello, this is  fully responsive news website
